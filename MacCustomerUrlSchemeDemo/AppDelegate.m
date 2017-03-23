@@ -15,14 +15,21 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+- (void)applicationWillFinishLaunching:(NSNotification *)notification {
+    [[NSAppleEventManager sharedAppleEventManager] setEventHandler:self andSelector:@selector(handleURLEvent:withReplyEvent:) forEventClass:kInternetEventClass andEventID:kAEGetURL];
 }
 
-
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+- (void)handleURLEvent:(NSAppleEventDescriptor*)event
+        withReplyEvent:(NSAppleEventDescriptor*)replyEvent{
+    NSString *url = [[event paramDescriptorForKeyword:keyDirectObject]  stringValue];
+    NSAlert *alert = [[NSAlert alloc] init];
+    alert.messageText = @"唤醒的url";
+    alert.informativeText = url;
+    [alert addButtonWithTitle:@"ok"];
+    [alert setAlertStyle:NSAlertStyleWarning];
+    
+    NSModalResponse returnCode =  [alert runModal];
+    NSLog(@"----%zi",returnCode);
 }
-
 
 @end

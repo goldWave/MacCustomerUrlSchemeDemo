@@ -11,6 +11,9 @@
 		4ADD540E1E836ABE00C9B65C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD540D1E836ABE00C9B65C /* main.m */; };
 		4ADD54101E836ABE00C9B65C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADD540F1E836ABE00C9B65C /* Assets.xcassets */; };
 		4ADD54131E836ABE00C9B65C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADD54111E836ABE00C9B65C /* MainMenu.xib */; };
+		4ADD541B1E836AFC00C9B65C /* invokeApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 4ADD541A1E836AFC00C9B65C /* invokeApp.html */; };
+		4ADD541E1E836EA900C9B65C /* p1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ADD541C1E836EA900C9B65C /* p1.png */; };
+		4ADD541F1E836EA900C9B65C /* p2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ADD541D1E836EA900C9B65C /* p2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		4ADD540F1E836ABE00C9B65C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ADD54121E836ABE00C9B65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4ADD54141E836ABE00C9B65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADD541A1E836AFC00C9B65C /* invokeApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = invokeApp.html; sourceTree = "<group>"; };
+		4ADD541C1E836EA900C9B65C /* p1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p1.png; sourceTree = "<group>"; };
+		4ADD541D1E836EA900C9B65C /* p2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			children = (
 				4ADD54091E836ABE00C9B65C /* AppDelegate.h */,
 				4ADD540A1E836ABE00C9B65C /* AppDelegate.m */,
+				4ADD541A1E836AFC00C9B65C /* invokeApp.html */,
+				4ADD541C1E836EA900C9B65C /* p1.png */,
+				4ADD541D1E836EA900C9B65C /* p2.png */,
 				4ADD540F1E836ABE00C9B65C /* Assets.xcassets */,
 				4ADD54111E836ABE00C9B65C /* MainMenu.xib */,
 				4ADD54141E836ABE00C9B65C /* Info.plist */,
@@ -129,7 +138,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ADD541F1E836EA900C9B65C /* p2.png in Resources */,
+				4ADD541B1E836AFC00C9B65C /* invokeApp.html in Resources */,
 				4ADD54101E836ABE00C9B65C /* Assets.xcassets in Resources */,
+				4ADD541E1E836EA900C9B65C /* p1.png in Resources */,
 				4ADD54131E836ABE00C9B65C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +302,7 @@
 				4ADD54191E836ABE00C9B65C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
