@@ -111,6 +111,7 @@
 				TargetAttributes = {
 					4ADD54051E836ABE00C9B65C = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7SHP7V4RR7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -263,7 +264,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7SHP7V4RR7;
 				INFOPLIST_FILE = MacCustomerUrlSchemeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jimbo.com.MacCustomerUrlSchemeDemo;
@@ -275,7 +278,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7SHP7V4RR7;
 				INFOPLIST_FILE = MacCustomerUrlSchemeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jimbo.com.MacCustomerUrlSchemeDemo;
