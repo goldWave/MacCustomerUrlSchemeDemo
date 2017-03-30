@@ -1,4 +1,8 @@
 # MacCustomerUrlSchemeDemo
+
+[详细说明见blog](http://blog.csdn.net/goldWave01/article/details/65440928)
+
+
 目的：给app绑定一个Scheme，可以通过浏览器或者其他的app来唤起本app。
 step:1.先运行一次project
      2.将project里面的invokeApp.html，拖入到浏览器里面，
