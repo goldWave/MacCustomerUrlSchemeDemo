@@ -1,6 +1,6 @@
 # MacCustomerUrlSchemeDemo
 
-[详细说明见blog](http://blog.csdn.net/goldWave01/article/details/65440928)
+[详细说明见blog](http://blog.csdn.net/goldWave01/article/details/70230239)
 
 
 目的：给app绑定一个Scheme，可以通过浏览器或者其他的app来唤起本app。
